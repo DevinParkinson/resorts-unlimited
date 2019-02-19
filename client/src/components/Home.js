@@ -36,28 +36,32 @@ class Home extends Component {
         </Container>
         <Container fluid style={{backgroundImage: 'url(http://www.amenaviajes.com/wp-content/uploads/2016/11/AmenaRiodeJaneiro.jpg)', backgroundRepeat: 'no-repeat', backgroundPosition: 'center center', backgroundSize: 'cover', fontFamily: 'cerapro-bold,sans-serif'}}>
           <div style={{height: '800px', width: '100%'}}>
-            <br/><br/>
-            <Header as="h1" textAlign="center" style={{fontFamily: 'cerapro-bold,sans-serif'}}>How Does it work?</Header>
-            <Grid container doubling columns='equal'>
-              <Grid.Row>
-                <Grid.Column style={{backgroundColor: '#dfdedf', height: '400px', marginTop: '15px', overflow: 'auto'}}>
-                  <Image centered src="https://www.shareicon.net/data/256x256/2016/01/03/697382_arrows_512x512.png" style={{height: '40px', marginTop: '15px'}}/>
-                  <Header textAlign="center" style={{fontFamily: 'cerapro-bold,sans-serif'}}>Sign Up</Header>
-                  <p>Organized design traveling website modern cute theme organized cute. Blogger webdesign website blogger Travel webdesign webdesign colorful.</p>
-                </Grid.Column>
-                <Grid.Column style={{backgroundColor: '#dfdedf', height: '400px', marginLeft: '50px', marginTop: '15px', overflow: 'auto'}}>
-                  <Image centered src="https://image.flaticon.com/icons/png/128/1040/1040218.png" style={{height: '40px', marginTop:'10px'}}/>
-                  <Header textAlign="center" style={{fontFamily: 'cerapro-bold,sans-serif'}}>Receive Alerts</Header>
-                  <p>Travelblogger simple website adventure pretty traveling colorful, website cute whimsical expedition.</p>
-                </Grid.Column>
-                <Grid.Column style={{backgroundColor: '#dfdedf', height: '400px', marginLeft: '50px', marginTop: '15px', overflow: 'auto'}}>
-                  <Image centered src="https://cdn2.iconfinder.com/data/icons/travel-set-2/512/34-512.png" style={{height: '40px', marginTop:'10px'}}/>
-                  <Header textAlign="center" style={{fontFamily: 'cerapro-bold,sans-serif'}}>Follow Easy Instructions</Header>
-                  <p>Blogger cute clean website organized pretty website. Blogger adventure WordPress website cute blogger traveling clean design.</p>
-                </Grid.Column>
-              </Grid.Row>
-            </Grid>
-          </div>
+            <br/>
+          <Container>
+            <Header as="h1" textAlign="center" style={{fontFamily: 'cerapro-bold,sans-serif'}}>We Search For The Best Deals Every Day, Making Sure You Get The Best Deal</Header>
+          </Container>
+              <br/><br/>
+              <Header as="h1" textAlign="center" style={{fontFamily: 'cerapro-bold,sans-serif'}}>How Does it work?</Header>
+              <Grid container doubling columns='equal'>
+                <Grid.Row>
+                  <Grid.Column style={{backgroundColor: '#dfdedf', height: '400px', marginTop: '15px', overflow: 'auto'}}>
+                    <Image centered src="https://www.shareicon.net/data/256x256/2016/01/03/697382_arrows_512x512.png" style={{height: '40px', marginTop: '15px'}}/>
+                    <Header textAlign="center" style={{fontFamily: 'cerapro-bold,sans-serif'}}>Sign Up</Header>
+                    <p>Organized design traveling website modern cute theme organized cute. Blogger webdesign website blogger Travel webdesign webdesign colorful.</p>
+                  </Grid.Column>
+                  <Grid.Column style={{backgroundColor: '#dfdedf', height: '400px', marginLeft: '50px', marginTop: '15px', overflow: 'auto'}}>
+                    <Image centered src="https://image.flaticon.com/icons/png/128/1040/1040218.png" style={{height: '40px', marginTop:'10px'}}/>
+                    <Header textAlign="center" style={{fontFamily: 'cerapro-bold,sans-serif'}}>Receive Alerts</Header>
+                    <p>Travelblogger simple website adventure pretty traveling colorful, website cute whimsical expedition.</p>
+                  </Grid.Column>
+                  <Grid.Column style={{backgroundColor: '#dfdedf', height: '400px', marginLeft: '50px', marginTop: '15px', overflow: 'auto'}}>
+                    <Image centered src="https://cdn2.iconfinder.com/data/icons/travel-set-2/512/34-512.png" style={{height: '40px', marginTop:'10px'}}/>
+                    <Header textAlign="center" style={{fontFamily: 'cerapro-bold,sans-serif'}}>Follow Easy Instructions</Header>
+                    <p>Blogger cute clean website organized pretty website. Blogger adventure WordPress website cute blogger traveling clean design.</p>
+                  </Grid.Column>
+                </Grid.Row>
+              </Grid>
+            </div>
         </Container>
         <Container fluid style={{backgroundImage: 'linear-gradient(to bottom right, #0692cd, #00cffc)', backgroundRepeat: 'no-repeat', backgroundPosition: 'center center', backgroundSize: 'cover', fontFamily: 'cerapro-bold,sans-serif'}}>
           <div style={{height: '600px', width: '100%'}}>
